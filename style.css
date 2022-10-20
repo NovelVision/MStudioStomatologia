@@ -62,6 +62,7 @@ body {
     border-radius: 10px;
   }
   #menuIcon {
+    display: inline !important;
     padding-top: 1%;
     filter: contrast(2) invert();
     width: 20% !important;
@@ -237,6 +238,9 @@ body {
   #Section iframe {
     margin-top: 10% !important;
   }
+}
+#menuIcon {
+  display: none;
 }
 
 #navbar li {
