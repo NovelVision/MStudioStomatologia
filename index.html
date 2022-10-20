@@ -12,16 +12,20 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script> 
 </head>
+
 <body>
     <div id="main" style="margin-bottom: 50px;">
         <ul id="navbar">
-            <li><a href="index.html">Strona Główna</a></li>
-            <li><a href="recent.html">Aktualności</a></li>
-            <li><a href="about.html">O nas</a></li>
-            <li><a href="https://app.felgdent.com/extcal/921371937854"> Rezerwuj wizytę</a></li>
-            <li><a href="course.html">Kursy</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-            <li id="logoContainer"><img id="logo" src="images/Logo_Transparent.webp"></li>
+            <li id="menuElement"><a href="/">Strona Główna</a></li>
+            <li id="menuElement"><a href="recent.html">Aktualności</a></li>
+            <li id="menuElement"><a href="about.html">O nas</a></li>
+            <li id="menuElement"><a href="https://app.felgdent.com/extcal/921371937854"> Rezerwuj wizytę</a></li>
+            <li id="menuElement"><a href="course.html">Kursy</a></li>
+            <li id="menuElement"><a href="contact.html">Kontakt</a></li>
+            <li id="logoContainer" onclick="menuRevealElements()">
+                <img id="menuIcon" src="images/MenuIcon.png">
+                <img id="logo" src="images/Logo_Transparent.webp">
+            </li>
         </ul>
         <div id="landing">
             <img id="machanImg" src="images/DoctorMachan.webp">
