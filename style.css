@@ -37,6 +37,9 @@ html, body {
 }
 
 @media only screen and (max-width: 955px) {
+  html {
+    background-color: white !important;
+  }
   body {
     background-color: white !important;
   }
@@ -149,10 +152,12 @@ html, body {
 
   #landing {
     width: 100%;
+    height: 1700px !important;
   }
 
   #machanImg {
     width: 100% !important;
+    height: 30% !important;
     -o-object-position: 0 !important;
     object-position: 0 !important;
     position: relative !important;
@@ -162,7 +167,7 @@ html, body {
     padding: 2% 5% !important;
     position: relative !important;
     top: -150px !important;
-    background-color: rgba(87, 139, 194, 0.8);
+    background-color: rgba(87, 139, 194, 1);
     width: 90% !important;
     margin: auto;
     border-radius: 10px;
@@ -219,6 +224,7 @@ html, body {
 
   #contentDevider h2 {
     text-align: center;
+    font-size: calc(30px + 6 * ((100vw - 1440px) / 680)) !important;
   }
 
   .container2 {
@@ -278,14 +284,12 @@ html, body {
   #SectionDevider h3 {
     padding: 5% !important;
     margin: 0 !important;
-    color: white !important;
   }
 
   #SectionDevider span {
     padding: 5% !important;
     margin: 0 !important;
     padding-top: 0 !important;
-    color: rgba(255, 255, 255, 0.7) !important;
   }
 
   #Section {
@@ -299,6 +303,60 @@ html, body {
 
   #Section iframe {
     margin-top: 10% !important;
+  }
+
+  footer span {
+    font-size: calc(23px + 6 * ((100vw - 1440px) / 680)) !important;
+  }
+
+  .TM span {
+    font-size: calc(23px + 6 * ((100vw - 1440px) / 680)) !important;
+  }
+  .MS span {
+    font-size: calc(23px + 6 * ((100vw - 1440px) / 680)) !important;
+  }
+  .WK span {
+    font-size: calc(23px + 6 * ((100vw - 1440px) / 680)) !important;
+  }
+  .AM span {
+    font-size: calc(23px + 6 * ((100vw - 1440px) / 680)) !important;
+  }
+  .KD span {
+    font-size: calc(23px + 6 * ((100vw - 1440px) / 680)) !important;
+  }
+  .AboutGrid {
+    grid-template-columns: 1fr !important;
+    grid-template-areas: "a""b""c""d" !important;
+  }
+  .CourseGrid {
+    grid-template-columns: 1fr !important;
+    grid-template-areas: "ca""cb" !important;
+  }
+  .cb {
+    margin: 0 50px;
+  }
+  .paymentContainer {
+    height: auto !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 30px 1fr 30px 1fr 30px 1fr 30px 1fr 90px 1fr 80px 1fr !important;
+    grid-auto-flow: column !important;
+    grid-template-areas: "CashP" "CashL" "CardP" "CardL" "BlikP" "BlikL" "TransferP" "TransferL" "PaydentP" "PaydentL" "MediratyP" "MediratyL" !important;
+  }
+  .paymentContainer div span{
+    width: 90% !important;
+    left: 5%;
+  }
+  .paymentContainer div img{
+    width: 100% !important;
+    border-radius: 10px !important;
+    object-fit: cover;
+  }
+  .paymentContainer div{
+    justify-self: center;
+  }
+  .CashP,.CardP,.BlikP,.TransferP,.PaydentP,.MediratyP {
+    height: 30% !important;
   }
 }
 
