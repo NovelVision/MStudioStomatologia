@@ -375,7 +375,7 @@ html, body {
 }
 
 #navbar li:not(:last-child):not(:first-child) {
-  background: url('/images/Separator.webp') no-repeat top left;
+  background: url('images/Separator.webp') no-repeat top left;
   padding-left: 3px
 }
 
